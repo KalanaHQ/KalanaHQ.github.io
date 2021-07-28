@@ -139,7 +139,7 @@ a:hover {
 .heading-top {
   font-size: 4rem;
   text-align: center;
-  line-height: 2rem;
+  line-height: 3rem;
 }
 
 @media only screen and (max-width:600px) {
