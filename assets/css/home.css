@@ -1,12 +1,13 @@
 .typing-container {
   margin-top: 5%;
   padding: 2%;
+  font-weight: 600;
   overflow-wrap: break-word;
 }
 
 .typing {
     margin: 0 auto;
-    width: 33rem;
+    width: 31rem;
     border-right: 2px solid rgba(0,0,0,.75);
     font-size: 2.2rem;
     text-align: center;
@@ -22,7 +23,7 @@
 
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 33rem;}
+  to{width: 31rem;}
 }
 
 @keyframes blinkTextCursor{
@@ -32,13 +33,13 @@
 
 @media only screen and (max-width:777px) {
   .typing {
-    width: 18rem;
+    width: 17rem;
     font-size: 1.2rem;
   }
 
   @keyframes typewriter{
     from{width: 0;}
-    to{width: 18rem;}
+    to{width: 17rem;}
   }
 }
 
