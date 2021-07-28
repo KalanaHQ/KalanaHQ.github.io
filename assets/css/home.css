@@ -50,3 +50,13 @@
   font-weight: 200;
   line-height: 2rem;
 }
+
+.software-img {
+  width: 80%;
+}
+
+.software-img-text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
