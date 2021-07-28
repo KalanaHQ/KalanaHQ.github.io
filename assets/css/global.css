@@ -31,6 +31,10 @@ b {
   font-weight: 600;
 }
 
+a:hover {
+  color: #F8485E;  
+}
+
 /*Scrollbar Handle */
 ::-webkit-scrollbar {
   width: 5px;
@@ -117,6 +121,14 @@ b {
   margin-right: auto;
 }
 
+.hr-footer {
+  width: 50%;
+  height: 2px;
+  opacity: 0.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (max-width:777px) {
   .hr-bottom-line {
     width: 20%;
@@ -155,4 +167,23 @@ b {
 .small-text-1 {
   font-size: 1.1rem;
   text-align: center;
+}
+
+/* Footer */
+.footer {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-row {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.privacy-link {
+  color: grey;
 }
