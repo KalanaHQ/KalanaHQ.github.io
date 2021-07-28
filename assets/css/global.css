@@ -154,6 +154,7 @@ a:hover {
   text-align: center;
   font-weight: 200;
   line-height: 2rem;
+  opacity: 0.9;
 }
 
 .heading-2 {
@@ -165,6 +166,7 @@ a:hover {
 .text-2 {
   font-size: 1.3rem;
   font-weight: 200;
+  opacity: 0.9;
 }
 
 .small-text-1 {
