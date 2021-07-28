@@ -27,6 +27,10 @@ h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
 
+b {
+  font-weight: 700;
+}
+
 /*Scrollbar Handle */
 ::-webkit-scrollbar {
   width: 5px;
@@ -67,8 +71,54 @@ h2, h3, h4, h5, h6 {
   margin-right: 20px;
 }
 
+.kalana-logo-nav {
+  width: 2rem;
+}
+
 @media only screen and (max-width:991px) {
   .nav-item {
     margin: 0;
   }
+}
+
+.hr-bottom-line {
+  width: 15%;
+  height: 1.5px;
+  border: solid;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width:777px) {
+  .hr-bottom-line {
+    width: 20%;
+  }
+}
+
+/* Headings and texts */
+.heading-top {
+  font-size: 4rem;
+  text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+  .heading-top {
+    font-size: 3rem;
+  }
+}
+
+.text-1 {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 200;
+  line-height: 2rem;
+}
+
+.heading-2 {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.text-2 {
+  font-size: 1.3rem;
+  font-weight: 200;
 }
