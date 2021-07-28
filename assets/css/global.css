@@ -32,7 +32,7 @@ b {
 }
 
 a:hover {
-  color: #F8485E;  
+  color: #F8485E;
 }
 
 /*Scrollbar Handle */
@@ -139,11 +139,13 @@ a:hover {
 .heading-top {
   font-size: 4rem;
   text-align: center;
+  line-height: 2rem;
 }
 
 @media only screen and (max-width:600px) {
   .heading-top {
     font-size: 3rem;
+    line-height: 2rem;
   }
 }
 
@@ -157,6 +159,7 @@ a:hover {
 .heading-2 {
   font-size: 2rem;
   text-align: left;
+  line-height: 2rem;
 }
 
 .text-2 {
